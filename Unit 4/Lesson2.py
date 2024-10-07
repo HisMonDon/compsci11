@@ -45,3 +45,5 @@ while i <= 10000:
     i+=5
 
 print(f"The sum is {sum}.")
+
+# 5. Calculate the sum of the multiples of 5 between 1 and 100, but do not include numbers that are multiples of 3. Modulus (%) will come in handy here.
