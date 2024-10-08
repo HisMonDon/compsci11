@@ -47,3 +47,16 @@ while i <= 10000:
 print(f"The sum is {sum}.")
 
 # 5. Calculate the sum of the multiples of 5 between 1 and 100, but do not include numbers that are multiples of 3. Modulus (%) will come in handy here.
+
+# 5. Calculate the sum of the multiples of 5 between 1 and 100, but do not include numbers that are multiples of 3. Modulus (%) will come in handy here.
+
+sum = 0
+i = 5
+while i <= 100:
+    if (sum + i) % 3 == 0:
+        sum +=0
+    else:
+        sum += i
+    i+=5
+
+print(f"The sum is {sum}.")
