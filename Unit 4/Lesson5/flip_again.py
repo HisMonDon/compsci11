@@ -14,3 +14,4 @@ while again == "y":
     print("You flip a coin and it is... " + coin)
 
     again = input("Would you like to flip again (y/n)? ")
+#Answers on attached doc.
